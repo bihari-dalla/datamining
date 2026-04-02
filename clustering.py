@@ -1,3 +1,4 @@
+'''
 # Step 1: Load Required Libraries
 install.packages("ggplot2")
 library(ggplot2)
@@ -37,3 +38,4 @@ head(data)
 
 # Step 8: Cluster Centers
 kmeans_final$centers
+'''
