@@ -1,3 +1,4 @@
+'''
 if(!require(rpart)) install.packages("rpart")
 if(!require(rpart.plot)) install.packages("rpart.plot")
 
@@ -23,3 +24,4 @@ table(Predicted = pred, Actual = test$Species)
 
 accuracy <- mean(pred == test$Species)
 accuracy
+'''
