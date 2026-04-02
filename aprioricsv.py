@@ -8,7 +8,7 @@ library(arulesViz)
 library(igraph)
 library(visNetwork)
 
-data<-read.csv("C:/Users/admin/Downloads/transactions_sample.csv")
+data<-read.csv("C:/Users/Admin/Downloads/transactions_sample.csv")
 
 transaction_list<-split(data$itemDescription,data$memberid)
 head(transaction_list)
